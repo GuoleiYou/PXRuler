@@ -20,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol PXRulerMenueDelegate <NSObject>
 
-- (void)didChangedUnitValue:(NSInteger)unitValue;
+- (void)didChangedUnitValue:(short)unitValue;
 
 - (void)didClickCloseRuler;
 

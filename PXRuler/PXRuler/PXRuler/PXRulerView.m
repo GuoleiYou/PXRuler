@@ -94,7 +94,7 @@
     [bezierPath stroke];
 }
 
-- (void)setUnitValue:(NSInteger)unitValue
+- (void)setUnitValue:(short)unitValue
 {
     _unitValue = unitValue;
     

@@ -10,6 +10,6 @@
 
 @interface PXRulerView : UIView
 
-@property (nonatomic, assign) NSInteger unitValue;
+@property (nonatomic, assign) short unitValue;
 
 @end

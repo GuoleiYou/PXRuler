@@ -63,7 +63,7 @@
 - (void)panAction:(UIPanGestureRecognizer *)ges
 {
     CGPoint panPoint = [ges locationInView:ges.view];
-    if (![self.rulerView pointInside:[self convertPoint:panPoint toView:self.rulerView] withEvent:nil]) {
+    if (panPoint.y < 40) {
         return;
     }
     
@@ -92,7 +92,7 @@
     return isPointInRuler ||  isPointInMenue;
 }
 
-- (void)didChangedUnitValue:(NSInteger)unitValue
+- (void)didChangedUnitValue:(short)unitValue
 {
     self.rulerView.unitValue = unitValue;
 }

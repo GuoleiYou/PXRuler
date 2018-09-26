@@ -15,6 +15,10 @@
 		3DF85E96215B526400D58252 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF85E95215B526400D58252 /* main.m */; };
 		3DF85EA0215B526400D58252 /* PXRulerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF85E9F215B526400D58252 /* PXRulerTests.m */; };
 		3DF85EAB215B526400D58252 /* PXRulerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF85EAA215B526400D58252 /* PXRulerUITests.m */; };
+		3DF85EC1215B528A00D58252 /* PXRulerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF85EBB215B528A00D58252 /* PXRulerManager.m */; };
+		3DF85EC2215B528A00D58252 /* PXRulerMenueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF85EBC215B528A00D58252 /* PXRulerMenueView.m */; };
+		3DF85EC3215B528A00D58252 /* PXRulerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF85EBF215B528A00D58252 /* PXRulerView.m */; };
+		3DF85EC4215B528A00D58252 /* PXRulerWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF85EC0215B528A00D58252 /* PXRulerWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		3DF85EA6215B526400D58252 /* PXRulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXRulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF85EAA215B526400D58252 /* PXRulerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PXRulerUITests.m; sourceTree = "<group>"; };
 		3DF85EAC215B526400D58252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DF85EB9215B528900D58252 /* PXRulerMenueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXRulerMenueView.h; sourceTree = "<group>"; };
+		3DF85EBA215B528A00D58252 /* PXRulerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXRulerManager.h; sourceTree = "<group>"; };
+		3DF85EBB215B528A00D58252 /* PXRulerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXRulerManager.m; sourceTree = "<group>"; };
+		3DF85EBC215B528A00D58252 /* PXRulerMenueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXRulerMenueView.m; sourceTree = "<group>"; };
+		3DF85EBD215B528A00D58252 /* PXRulerWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXRulerWindow.h; sourceTree = "<group>"; };
+		3DF85EBE215B528A00D58252 /* PXRulerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXRulerView.h; sourceTree = "<group>"; };
+		3DF85EBF215B528A00D58252 /* PXRulerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXRulerView.m; sourceTree = "<group>"; };
+		3DF85EC0215B528A00D58252 /* PXRulerWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXRulerWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,7 @@
 				3DF85E87215B526300D58252 /* AppDelegate.m */,
 				3DF85E89215B526300D58252 /* ViewController.h */,
 				3DF85E8A215B526300D58252 /* ViewController.m */,
+				3DF85EB8215B527000D58252 /* PXRuler */,
 				3DF85E8C215B526300D58252 /* Main.storyboard */,
 				3DF85E8F215B526400D58252 /* Assets.xcassets */,
 				3DF85E91215B526400D58252 /* LaunchScreen.storyboard */,
@@ -130,6 +143,21 @@
 				3DF85EAC215B526400D58252 /* Info.plist */,
 			);
 			path = PXRulerUITests;
+			sourceTree = "<group>";
+		};
+		3DF85EB8215B527000D58252 /* PXRuler */ = {
+			isa = PBXGroup;
+			children = (
+				3DF85EBA215B528A00D58252 /* PXRulerManager.h */,
+				3DF85EBB215B528A00D58252 /* PXRulerManager.m */,
+				3DF85EB9215B528900D58252 /* PXRulerMenueView.h */,
+				3DF85EBC215B528A00D58252 /* PXRulerMenueView.m */,
+				3DF85EBE215B528A00D58252 /* PXRulerView.h */,
+				3DF85EBF215B528A00D58252 /* PXRulerView.m */,
+				3DF85EBD215B528A00D58252 /* PXRulerWindow.h */,
+				3DF85EC0215B528A00D58252 /* PXRulerWindow.m */,
+			);
+			path = PXRuler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +290,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DF85EC1215B528A00D58252 /* PXRulerManager.m in Sources */,
 				3DF85E8B215B526300D58252 /* ViewController.m in Sources */,
 				3DF85E96215B526400D58252 /* main.m in Sources */,
+				3DF85EC4215B528A00D58252 /* PXRulerWindow.m in Sources */,
+				3DF85EC3215B528A00D58252 /* PXRulerView.m in Sources */,
+				3DF85EC2215B528A00D58252 /* PXRulerMenueView.m in Sources */,
 				3DF85E88215B526300D58252 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

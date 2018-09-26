@@ -70,8 +70,8 @@
 
 - (void)sliderValueChangedAction:(UISlider *)slider
 {
-    NSInteger unitValue = ceilf(slider.value);
-    self.unitLabel.text = [NSString stringWithFormat:@"%ld px", unitValue];
+    short unitValue = ceilf(slider.value);
+    self.unitLabel.text = [NSString stringWithFormat:@"%d px", unitValue];
     if (self.menueDelegate && [self.menueDelegate respondsToSelector:@selector(didChangedUnitValue:)]) {
         [self.menueDelegate didChangedUnitValue:unitValue];
     }
