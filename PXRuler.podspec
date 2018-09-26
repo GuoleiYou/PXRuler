@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PXRuler"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "A demo of PXRuler."
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Use PXRuler to make sure the views are exactly the same as the design .
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "PXRuler/PXRuler/**/*.{h,m}"
+  s.source_files  = "PXRuler/PXRuler/PXRuler/**/*.{h,m}"
 
   # s.public_header_files = "Classes/**/*.h"
 
