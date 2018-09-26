@@ -1,0 +1,3 @@
+# PXRuler
+
+[[PXRulerManager sharedManager] showRuler];
