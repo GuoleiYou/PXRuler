@@ -2,4 +2,4 @@
 
 [[PXRulerManager sharedManager] showRuler];
 
-![Image text](PXRuler/ImageShow.png)
+![Image text](https://raw.githubusercontent.com/GuoleiYou/PXRuler/master/ImageShow.png)
