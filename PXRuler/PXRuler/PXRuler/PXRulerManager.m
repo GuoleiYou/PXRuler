@@ -18,7 +18,7 @@
 
 @implementation PXRulerManager
 
-+ (instancetype)sharedManager
++ (instancetype)shareManager
 {
     static PXRulerManager *sharedManager = nil;
     static dispatch_once_t onceToken;

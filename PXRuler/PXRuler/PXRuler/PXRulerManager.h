@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface PXRulerManager : NSObject
 
-+ (instancetype)sharedManager;
++ (instancetype)shareManager;
 
 - (void)showRuler;
 - (void)hideRuler;
